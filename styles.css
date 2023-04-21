@@ -6,3 +6,44 @@ available in the app when your plugin is enabled.
 If your plugin does not need CSS, delete this file.
 
 */
+.css-creator.modal-body {
+	display: flex;
+	flex-direction: column;
+	gap: var(--size-4-3);
+	padding: var(--size-4-1);
+	margin-bottom: var(--size-4-2);
+}
+
+.css-creator.modal-footer {
+	display: flex;
+	gap: var(--size-4-2);
+	justify-content: space-between;
+}
+
+button.css-creator-cancel {
+	background: var(--color-red);
+	/* filter: brightness(0.9); */
+	color: var(--color-base-00);
+}
+
+textarea.css-creator-textarea {
+	height: 200px;
+	overflow: auto;
+	width: 100%;
+}
+
+input.css-creator-input {
+	border-radius: 4px;
+	height: 2em;
+}
+
+p.css-creator-description {
+	margin-top: 0 !important;
+	margin-bottom: var(--size-4-2) !important;
+	padding-left: var(--size-2-2);
+}
+
+h2.css-creator-title {
+	padding-left: var(--size-2-2);
+	font-size: larger;
+}
